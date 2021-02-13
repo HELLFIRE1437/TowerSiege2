@@ -4,7 +4,7 @@ class block extends BaseClass{
         this.v = 255 ;
     }
     display(){
-        if(this.body.speed < 4){
+        if(this.body.speed < 6){
             super.display();
         }
         else {
